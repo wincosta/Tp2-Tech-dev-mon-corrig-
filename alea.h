@@ -1,3 +1,6 @@
+#ifndef __ALEA_H__
+#define __ALEA_H__
+
 #include <stdlib.h>
 #include "tableau.h"
 
@@ -8,3 +11,5 @@ int alea (int m);
 
 // remplit t avec des valeurs aléatoires
 void remplir (int m);
+
+#endif // __ALEA_H__
